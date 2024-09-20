@@ -23,7 +23,7 @@ jobs:
       - name: Test branches question
         run: |
           cd test
-          bash branches.sh
+          bash branches_tst.sh
   MergeConflict:
     runs-on: ubuntu-latest
     steps:
